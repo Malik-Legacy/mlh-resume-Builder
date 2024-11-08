@@ -1,0 +1,87 @@
+<!-- index.html  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Creator</title>
+    <!-- style link here -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- input container starts here -->
+    <section class="resume-builder">
+        <div class="container">
+            <h1>Resume Creator💻</h1>
+            <div class="resume_container">
+                <form class="inputField">
+                    <h4>Your name </h4>
+                    <input type="text" 
+                           name="name" 
+                           title="Enter Your Name" />
+                           <h4>Title/Sub Heading</h4>
+                    <input type="text" 
+                           name="title" 
+                           title="Enter Title/Sub Heading" />
+                           <h4>Work Experience</h4>
+                    <textarea name="work_experience"  
+                              cols="40" rows="3"
+                              title="Enter Your Work Experience">
+                    </textarea>
+                    <h4>Academic Details</h4>
+                    <textarea name="academic_details"  
+                              cols="40" rows="3"
+                              title="Enter Your Academic Details">
+                    </textarea>
+                    <h4>Objective</h4>
+                    <input type="text"
+                           title="Enter Your Objective" 
+                           name="objective" />
+                           <h4>Skills</h4>
+                    <textarea name="skills" 
+                              title="Enter Your Skills" >
+                    </textarea>
+                    <h4>Projects</h4>
+                    <textarea name="projects" 
+                              title="Enter Your Projects"
+                              cols="40"
+                              rows="3">
+                    </textarea>
+                    <h4>Achievements</h4>
+                    <textarea name="achievements" 
+                              cols="40" rows="3"
+                              title="Enter Your Achievements">
+                    </textarea>
+                    <h4>Contact Information</h4>
+                    <textarea name="contact" 
+                              cols="40" rows="3"
+                              title="Enter Your Contact Information">
+                    </textarea>
+                </form>
+            </div>
+            <p class="credit">
+                Created by Malik
+                <br>
+                a project from career week MLH
+            </p>
+        </div>
+    </section>
+    <!-- input container ends here -->
+
+    <!-- output container starts here -->
+    <div class="output_container"></div>
+    <!-- output container ends here -->
+
+    <!-- preview button -->
+    <button onclick="hide()">
+          Generate 🔥
+      </button>
+
+    <!-- script link here -->
+    <script src="script.js"></script>
+</body>
+
+</html>
